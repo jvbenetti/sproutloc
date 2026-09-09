@@ -1,2 +1,21 @@
+# Arquivos compilados e cache do sbt
+target/
+project/target/
+project/project/
+
+# Logs
+*.log
+
+# Pastas de IDEs (Metals, VS Code, IntelliJ)
+.idea/
+*.iml
+*.iws
+.vscode/
+.metals/
+.bloop/
+.bsp/
+project/metals.sbt
+
 # Apple
 .DS_Store
+**/.DS_Store
